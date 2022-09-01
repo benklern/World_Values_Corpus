@@ -4,7 +4,6 @@ Repository containing data for the World Values Corpus.
 Files: 
  - WVC_for_RVR_training_and_testing.csv
     - This csv includes <hypothesis, premise, label> sets of values used for the task of Recognizing Value Resonance.
-    - This csv includes neutrals generated from the WVC.
     - Random Sample Data Preview:
 
 |     | premise                                                                                                                                                                         | hypothesis                                                                     | label     |   label_coded |
