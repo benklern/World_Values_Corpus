@@ -2,8 +2,22 @@
 Repository containing data for the World Values Corpus.
 
 Files: 
+ - WVC_for_RVR_training_and_testing.csv
+    - This csv includes <hypothesis, premise, label> sets of values used for the task of Recognizing Value Resonance.
+    - This csv includes neutrals generated from the WVC.
+    - Random Sample Data Preview:
+
+|     | premise                                                                                                                                                                         | hypothesis                                                                     | label     |   label_coded |
+|----:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|:----------|--------------:|
+| 413 | They've managed to raise an amazing kid with an independent mind and no patience for most people.                                                                               | Men and women should decide whether to use condoms together.                   | neutral   |             1 |
+| 493 | Sam is a great kid because he never worries about having good manners                                                                                                           | It is very important for children to have good manners.                        | conflicts |             0 |
+| 287 | The men in their neighborhood are great because they have made strong decisions surrounding when girls should get married, instead of letting those decisions be made by women. | Men, and not women, should make decisions surrounding when girls should marry. | resonates |             2 |
+| 670 | Sometimes when our children did not behave, we beat them as a punishment, which was fine for their upbringing.                                                                  | It is justifiable for parents to beat their children.                          | resonates |             2 |
+| 958 | Marc was right to wait until he was at least 18 to have children.                                                                                                               | I would consider myself lower middle class.                                    | neutral   |             1 |
+
  - annonymized_WVC.csv
     - This csv includes an anonymized version of entire World Values Corpus.
+    - Random Sample Data Preview:
 
 |     | WVS_question_id   | WVS_question                                                                        |   annotator | annotation_value_relationship   | textual_premise                                                                                                                                            | value_hypothesis                                                                                        | resonance_label   |   resonance_coded |
 |----:|:------------------|:------------------------------------------------------------------------------------|------------:|:--------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|:------------------|------------------:|
@@ -13,15 +27,3 @@ Files:
 | 198 | Q193              | Justifiable: Having casual sex                                                      |           3 | narrative_restatement           | His weekend sexual encounters were increasing in frequency, and that was the status quo for men his age.                                                   | Having casual sex is  is justifiable.                                                                   | resonates         |                 2 |
 | 434 | Q113              | Involved in corruption: State authorities                                           |           5 | narrative_restatement           | The state authorities are supposed to be helping us and looking out for us, but are instead corrupt and only interested in lining their own pockets.       | Most state authorities are involved in corruption.                  | resonates         |                 2 |
 
-    
- - WVC_for_RVR_training_and_testing.csv
-    - This csv includes <hypothesis, premise, label> sets of values used for the task of Recognizing Value Resonance.
-    - This csv includes neutrals generated from the WVC.
-
-|     | premise                                                                                                                                                                         | hypothesis                                                                     | label     |   label_coded |
-|----:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|:----------|--------------:|
-| 413 | They've managed to raise an amazing kid with an independent mind and no patience for most people.                                                                               | Men and women should decide whether to use condoms together.                   | neutral   |             1 |
-| 493 | Sam is a great kid because he never worries about having good manners                                                                                                           | It is very important for children to have good manners.                        | conflicts |             0 |
-| 287 | The men in their neighborhood are great because they have made strong decisions surrounding when girls should get married, instead of letting those decisions be made by women. | Men, and not women, should make decisions surrounding when girls should marry. | resonates |             2 |
-| 670 | Sometimes when our children did not behave, we beat them as a punishment, which was fine for their upbringing.                                                                  | It is justifiable for parents to beat their children.                          | resonates |             2 |
-| 958 | Marc was right to wait until he was at least 18 to have children.                                                                                                               | I would consider myself lower middle class.                                    | neutral   |             1 |
