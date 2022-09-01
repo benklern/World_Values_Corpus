@@ -17,6 +17,7 @@ Files:
  - WVC_for_RVR_training_and_testing.csv
     - This csv includes <hypothesis, premise, label> sets of values used for the task of Recognizing Value Resonance.
     - This csv includes neutrals generated from the WVC.
+
 |     | premise                                                                                                                                                                         | hypothesis                                                                     | label     |   label_coded |
 |----:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------|:----------|--------------:|
 | 413 | They've managed to raise an amazing kid with an independent mind and no patience for most people.                                                                               | Men and women should decide whether to use condoms together.                   | neutral   |             1 |
